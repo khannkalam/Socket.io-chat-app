@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <style> 
+    body {
+    background-image: url("images/background1.jpg");
+}
+    </style>
+    <title>World Chat</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 col-sm-12"> <br> <br>
+                <h1 style="color: #f3f8f7;" class="text-center">
+                 <img src="images/neptune.png" style="width: 30px;">   Welcome to World Chat
+                </h1> <br>
+                
+                <h4  style="color: #fafafa;"  class="text-center">
+                    <b>Please enter your name below to proceed to the chat</b>
+                </h4>
+                <br> <br>
+                <div class="form-group">
+                    <form method="GET" action="/chat">
+                    <input type="text" name="nameOfUser" class="form-control" placeholder="Enter Name" id="nameOfUser" required> <br>
+                    <button type="submit" id="submitButton" class="btn btn-info">Enter Chat</button>
+                    <br>
+                </form>
+                  </div>
+                </div>
+                </div>
+                </div>
+
+                
+
+                <script src="scripts/chat.js"> </script>
+               
+</body>
+</html>

@@ -1,0 +1,29 @@
+
+
+- Name: kalam khann
+- Appication: Socketio chat application
+
+- Description: Realtime Chat Application with NodeJS, SocketIO, Express, and MongoDB
+	+ Firstly, users will go to the /localhost:3000. 
+	+ where users can Enter their name.
+	+ Next, the users will Enter in a chatroom.
+	+ where they can chat with eachothers
+	
+	+ In Index page:
+		+ where users can Enter their names
+	
+
+	
+	+ In Chat page:
+		+ Next, the users will Enter in a chatroom.
+		+ where they can start chatting with eachothers
+		* if the user closes the chat window, disconnect, etc, we consider the user is offline
+
+- To run application on local host:
+	+ setup the mongodb and run on terminal: mongod or sudo mongod
+	+ go to the chatApp and type on terminal: node server.js or nodemon server.js
+	+ After that, open the brower and type: http://localhost:3000 (I set port = 3000) 
+
+	
+
+- Thank you for your receiving and sorry for my poor english!

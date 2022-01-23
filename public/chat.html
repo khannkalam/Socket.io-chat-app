@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <style> 
+        body {
+        background-image: url("./images/background1.jpg");
+    }
+        </style>
+    <title>World Chat</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 col-sm-12">
+                <br> <br>
+                <h1 style="color: #fdfdfd;" class="text-center">
+                        <img src="images/neptune.png" style="width: 30px;">
+                    World chat <br>
+                    <button id="clear" class="btn btn-danger" style="display: none;">Clear</button>
+                </h1> <br> 
+                <h3 id="loggedInUserSection" style="color: #fafafa;" class="text-center"></h3>
+                <div id="chat">
+                    
+                      <div class="card text-white bg-info mb-3" style="max-width: 40rem;">
+                        <div class="card-body">
+                          <p class="card-text " id="outputMessages"></p>
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <textarea class="form-control" id="inputMessages" rows="3" placeholder="Enter message"></textarea>
+                      </div>
+                      <button type="button" id="send" class="btn btn-info">Send</button>
+                </div>
+
+                
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js">
+            
+                </script>
+                <script src="scripts/chat.js">
+                
+                
+                </script>
+
+               
+
+</body>
+</html>
